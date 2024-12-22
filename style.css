@@ -1,0 +1,233 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS */
+    max-width: 100%;
+}
+
+body {
+    /* COR DE FUNDO */
+    background-color: white;
+}
+
+.header{
+        /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 2 COLUNAS */ 
+    grid-template-columns: 130px 1000px;
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* MARGEM DOS CARDS */
+    margin-left: 10px;
+    line-height: 35px;
+    text-align: left;
+}
+
+
+#logotipo {
+    /* LARGURA DO LOGOTIPO */
+    width: 50px;
+    /* MARGEM DO LOGOTIPO */
+    margin: 10px;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 100%;
+}
+
+#menu {
+    loading="lazy" width: 30%;
+    margin 0; padding: 0;
+    float: left;
+
+}
+
+#menu ul li {
+    margin: 0; padding: 0;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+    list-style-type: none;
+}
+
+#menu a:link {
+    background: gray;
+    /* COR DOS LINKS */
+    color: white;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* REMOVER SUBLINHADO */
+    text-decoration: none;
+    /* ESPAÇAMENTO ENTRE OS LINKS  */
+    padding: 10px;
+    /* FONTE */
+    font-family: sans-serif;
+    display: block;
+}
+
+/* MUDAR O ESTADO DO ELEMENTO QUANDO PASSA O CURSOR EM CIMA DELE */
+#menu a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.principal {
+    
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */ 
+    grid-template-columns: repeat(1, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.membros {
+    
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 2 COLUNAS */ 
+    grid-template-columns: repeat(2, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 50px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.karen {
+    width: 70%;
+    height: 70%;
+}
+
+.erick {
+    width: 77%;
+    height: 70%;
+}
+
+.midias {
+    
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 2 COLUNAS */ 
+    grid-template-columns: repeat(2, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 50px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.localizacao {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    margin: 20px 60px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.mapBox {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: white;
+    text-align: center;
+}
+
+.mapBox iframe {
+    width: 70%;
+    height: 70%;
+}
+
+.contato {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL EM COLUNAS */ 
+    grid-template-columns: repeat(1, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 10px;
+}
+
+#títulocontato {
+    text-align: center;
+}
+
+
+.item {
+    /* COR DE FUNDO */
+    background-color: gainsboro;
+    /* ALINHAR NO CENTRO */
+    text-align: center; 
+    /* LETRAS MAIÚSCULAS */
+    text-transform:none;
+    /* FONTE */
+    font-family: Arial, Helvetica, sans-serif;
+    /* BORDA SUPERIOR */
+    border-top: 5px solid gainsboro;
+    /* CONTORNO PARA BORDA */
+    border-radius: 1%;
+}
+
+.itemdois {
+    /* COR DE FUNDO */
+    background-color: white;
+    /* ALINHAR NO CENTRO */
+    text-align: center; 
+    /* LETRAS MAIÚSCULAS */
+    text-transform:none;
+    /* FONTE */
+    font-family: Arial, Helvetica, sans-serif;
+    /* BORDA SUPERIOR */
+    border-top: 5px solid white;
+    /* CONTORNO PARA BORDA */
+    border-radius: 1%;
+    display: flex;
+    /* JUSTIFICAR NA HORIZONTAL */    
+    justify-content: center;
+    /* JUSTIFICAR NA VERTICAL */ 
+    align-items: center;
+}
+
+.playlist {
+    text-align: center;
+    width: 500px;
+    display: block;
+}
+
+.rodape {
+    /* COR DE FUNDO */
+    background-color: white;
+    /* ALTURA */
+    height: 100px;
+    /* COR  */
+    color: black;
+    /* FONTE */
+    font-family: sans-serif;
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: flex;
+    /* JUSTIFICAR NA HORIZONTAL */    
+    justify-content: center;
+    /* JUSTIFICAR NA VERTICAL */ 
+    align-items: center;
+}
+
+.finalcontato {
+    
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 2 COLUNAS */ 
+    grid-template-columns: repeat(2, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 5px;
+    /* MARGEM DOS CARDS */
+    margin: 20px 60px;
+    line-height: 50px;
+    text-align: center;
+}
